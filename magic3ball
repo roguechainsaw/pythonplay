@@ -1,0 +1,21 @@
+__author__ = 'Jen'
+from random import randint
+number=0
+keepgoing=True
+while keepgoing==True:
+    input("What do you ask the Magic 3 Ball?")
+    number=randint(1,3)
+    if number == 1:
+        print ("You should smooch your honey")
+    elif number==2:
+        print ("Kittens!!! Kittens are the answer!!!!")
+    elif number==3:
+        print ("(>*.*)>")
+    else:
+        print ("uh, what?!")
+    again=input("Do you have another question?")
+    if again=="no":
+        print("Hope that helped!")
+        keepgoing=False
+    elif again!="yes":
+        print("huh? again? okay")
